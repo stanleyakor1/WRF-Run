@@ -33,6 +33,10 @@
 #   Idaho National Labs Falcon
 # --------------------------===---------------
 machines: 
+    Borah:
+      queue_list: ["leaf","bsudfq","shortgpu","gpu"]
+      scheduler: "SLURM" 
+
     R2: 
       queue_list: ["leaf","defq","ipowerq","gpuq"]
       scheduler: "SLURM"
